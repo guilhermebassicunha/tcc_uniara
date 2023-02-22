@@ -1,8 +1,10 @@
-# Projeto TCC Uniara - Automação portal Uniara
+## Projeto TCC Uniara - Automação portal Uniara
 Autor: Guilherme Bassi Cunha e Washington Luiz Tanajura
+
 
 ## Descrição
 Automação de testes do portal Uniara
+
 
 ## Tecnologias utilizadas
 JavaScript
