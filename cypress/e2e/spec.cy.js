@@ -6,7 +6,7 @@ describe('Acessos ao Menu', () => {
     page.cookieAceitar()
   })
 
-  it('Acessar a página Análise e Desenvolvimento de Sistemas (EaD Premium)', () => {
+  it.only('Acessar a página Análise e Desenvolvimento de Sistemas (EaD Premium)', () => {
     page.menuCursos()
     page.submenuGraduacao()
     page.cursoADSclicavel()

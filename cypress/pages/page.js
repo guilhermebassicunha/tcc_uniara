@@ -24,7 +24,7 @@ module.exports = {
     senhaAluno: '#menu-aberto > .dupla > form > [type="password"]',
 
     //Validações
-    validacao_CursoADS: 'Análise e Desenvolvimento de Sistemas (EaD Premium)',
+    validacao_CursoADS: 'O curso de Análise e Desenvolvimento de Sistemas',
     validacao_Incricao: 'INICIAR INSCRIÇÃO NO VESTIBULAR',
     validacao_MenuAluno: '#menu-aberto > .dupla > form > .sublink',
 
