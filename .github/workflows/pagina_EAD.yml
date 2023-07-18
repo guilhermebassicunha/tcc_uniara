@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    schedule:
+      - cron: "0 12 * * 1,2,3,4,5"
   pull_request:
     branches:
       - master
@@ -25,4 +27,4 @@ jobs:
       run: npm install
 
     - name: Run Cypress tests
-      run: npx cypress run
+      run: npx cypress run --spec "cypress/e2e/pagina_EAD.cy.js"
